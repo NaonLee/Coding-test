@@ -6,7 +6,7 @@ class Main {
   public static void main(String args[]) { 
     Scanner sc = new Scanner(System.in);
     
-    System.out.print("주민번호를 xxxxxx-xxxxxxx 형태로 입력: ");
+    System.out.print("주민번호를 xxxxxx-xxxxxxx 형태로 입력하세요: ");
     String str = sc.nextLine();
     
     if(str.charAt(7) == '1' || str.charAt(7) == '2')
