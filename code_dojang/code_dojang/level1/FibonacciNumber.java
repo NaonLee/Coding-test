@@ -1,4 +1,4 @@
-package code_dojang;
+package code_dojang.level1;
 
 public class FibonacciNumber {
 

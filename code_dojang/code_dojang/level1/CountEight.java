@@ -1,4 +1,4 @@
-package code_dojang;
+package code_dojang.level1;
 
 //find every number including 8
 public class CountEight {
