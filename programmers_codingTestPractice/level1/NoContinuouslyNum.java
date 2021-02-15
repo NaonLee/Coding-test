@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-//Integer array arr is given. Remove continuously duplicate number until one left.
+//Integer array arr is given. And all numbers should be different from the left or right number.
 
-public class NoConDuplicateNum {
+public class NoContinuouslyNum {
 
 	public static void main(String[] args) {
 		int[] arr = {1,2,4,4,3,3,1,2};
