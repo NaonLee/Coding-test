@@ -2,6 +2,8 @@ package level1;
 
 import java.util.Date;
 
+
+//Get day of the week (year 2016)
 public class DayOfTheWeek {
 
 	public static void main(String[] args) {
@@ -9,7 +11,6 @@ public class DayOfTheWeek {
 	}
 
 	public static String solution(int a, int b) {
-		
 		
 		Date date = new Date(2016-1900, a-1, b);
 		String answer = date.toString().split(" ")[0];
