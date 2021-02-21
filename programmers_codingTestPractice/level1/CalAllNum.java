@@ -3,11 +3,10 @@ package level1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import funtion.Solution;
 
 /*
 Integer array arr is given.
-Get every number that can be created by selecting two numbers from array
+Get every number that can be created by adding two numbers from array
 And put the numbers into the new array in ascending order
 */
 public class CalAllNum {
