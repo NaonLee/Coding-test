@@ -38,7 +38,7 @@ public class UnfinishedMarathon {
 			if(hash.get(c) != 0) {
 				hash.put(c, hash.get(c) -1);
 			}
-		}
+		} 
 		
 		//Unfinished Marathon runners' name(s) have 0 count (value)
 		List<String> unfinished = new ArrayList<>();			//save unfinished runner
