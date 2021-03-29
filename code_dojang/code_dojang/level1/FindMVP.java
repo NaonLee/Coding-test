@@ -18,7 +18,7 @@ public class FindMVP {
 		int index = 0;								//index for user with highest score
 		
 		for(int i=0; i<arr.length; i++) {
-			String element = arr[i];
+			String element = arr[i]; 
 			int k = Integer.parseInt(element.split(" ")[0].split("/")[0]);		//get K
 			int d = Integer.parseInt(element.split(" ")[0].split("/")[1]);		//get D
 			int a = Integer.parseInt(element.split(" ")[0].split("/")[2]);		//get A
